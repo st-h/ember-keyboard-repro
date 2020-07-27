@@ -2,6 +2,9 @@
 
 module.exports = function(environment) {
   let ENV = {
+    emberKeyboard: {
+      disableInputsInitializer: false,
+    },
     modulePrefix: 'route',
     environment,
     rootURL: '/',
